@@ -3,9 +3,8 @@ name: Build Lux Finance APK
 on:
   workflow_dispatch:
   push:
-    paths:
-      - 'LuxFinanceApp_Download.zip'
-
+    branches:
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
