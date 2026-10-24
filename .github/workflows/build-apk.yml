@@ -27,8 +27,7 @@ jobs:
         run: sdkmanager "platforms;android-35" "build-tools;35.0.0"
 
       - name: Ekstrak proyek
-        run: unzip LuxFinanceApp.zip
-
+        run: unzip LuxFinanceApp_Download.zip
       - name: Siapkan Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
